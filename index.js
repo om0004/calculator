@@ -5,7 +5,7 @@ function fun(w)
 	console.log(w);
 	if(w=='light')
 	{
-		document.head.children[4].href="cal_css.css";
+		document.head.children[4].href="index.css";
 		document.getElementById("mode").style.color="black";
 		document.getElementById("mode").style.backgroundColor="white";
 	}
