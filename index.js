@@ -17,6 +17,7 @@ function num(a){
 		if(b.length==1){
 			document.getElementById('output-value').innerHTML='0';
 			console.log(0);
+			b=0;
 		}
 		else{
 			b=b.toString();
