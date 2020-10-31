@@ -1,5 +1,4 @@
-*
-{
+*{
 	margin-left:0;
 	margin-right:0;
 }
@@ -27,32 +26,27 @@
 	margin:10px 20px;
 	font-size:30px;
 }
-h1
-{
+h1{
 	font-size:50px;
 	color:red;
 	text-align:center;
 	font-family: 'Orbitron', sans-serif;
 }
 
-.keyboard
-{
+.keyboard{
 	margin-top:3%;
 	background-color:white;
 }
-table
-{
+table{
 	
 	width:80%;
 	text-align:center;
 	margin:auto;
 }
-table,td,tr
-{
+table,td,tr{
 	padding:15px;
 }
-button
-{
+button{
 	border-radius:50%;
 	height:55;
 	width:55;
@@ -62,11 +56,25 @@ button
 	border:none;
 	outline: none;
 }
-button:hover {opacity: 0.8}
+.btn1{
+	background-color:#e43e6f;
 
+}
+.btn2{
+	background-color:white;
+}
+.btn3{
+	background-color:#41B3A3;
+}
+button:hover {opacity: 0.5}
 #_0
 {
 	border-radius:25% 25% 25% 25%;
 	width:150;
+}
+#mode
+{
+	border-radius:8px;
+	width:13%;
 }
 
